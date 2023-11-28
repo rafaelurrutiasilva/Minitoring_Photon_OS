@@ -39,3 +39,24 @@ All the scripts can be installed locally and then executed using SSH from the au
 * Restrict login access to only the necessary IP addresses.
 
 ## Monitoring using SNMP
+You will need to install (`tdnf install net-snmp`) and configure (`snmpconf -g basic_setup`) the snmp services on your system. Carefully consider which version to use and why. Your options are essentially v2 or v3.<br>
+When all the configuration is done, then you can start to explore the OIDs in the table below:
+
+OID                       |      Used for
+--------------------------|---------------------------------------------
+1.3.6.1.2.1.1.3.0         |      Timeticks/Uptime (for the snmpd process)
+1.3.6.1.2.1.1.5.0         |      hostname
+1.3.6.1.4.1.2021.10.1.3.1 |      Load 1  min
+1.3.6.1.4.1.2021.10.1.3.2 |      Load 5  min
+1.3.6.1.4.1.2021.10.1.3.3 |      Load 15 min
+1.3.6.1.4.1.2021.4.5.0    |      Total RAM in machine
+1.3.6.1.4.1.2021.4.6.0    |      Total RAM used
+1.3.6.1.4.1.2021.4.11.0   |      Total RAM Free
+1.3.6.1.4.1.2021.4.3.0    |      Total Swap Size
+1.3.6.1.4.1.2021.4.4.0    |      Available Swap Space
+1.3.6.1.4.1.2021.9.1.6.1  |      Total size of the disk/partion (kBytes): .
+1.3.6.1.4.1.2021.9.1.7.1  |      Available space on the disk
+1.3.6.1.4.1.2021.9.1.8.1  |      Used space on the disk
+1.3.6.1.4.1.2021.9.1.9.1  |      Percentage of space used on disk
+1.3.6.1.2.1.25.4.2.1.2    |      Process list
+
