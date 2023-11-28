@@ -34,6 +34,6 @@ In my repository, [Nagios Bash Plugins](https://github.com/rafaelurrutiasilva/na
 All the scripts can be installed locally and then executed using SSH from the authorized monitoring server. **Be aware of security**!
 
 ## Security in focus
-* Use local account with just enough privileges.
-* Use ssh-kyes
-* Limit login from just needed ip address
+* Use a local account with just enough privileges; consider using sudo, for example, to limit access specifically for these file checks.
+* Utilize SSH keys for authentication.
+* Restrict login access to only the necessary IP addresses.
