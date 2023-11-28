@@ -63,6 +63,6 @@ OID                       |      Used for
 ## Prometheus Node Exporter
 If you're already familiar with Prometheus and Grafana, why not simply install and run the [Prometheus Node Exporter](https://github.com/prometheus/node_exporter)? You have a few choices for doing that:
 
-1 - Configure and run it as a container application.
-2 - Create your own RPM using the community spec file, [node_exporter.spec](https://github.com/utobi/prometheus-rpm/blob/master/node_exporter/contrib/node_exporter.spec).
-3 - Install it locally using my script [install_prometheus_exporter.sh](https://github.com/rafaelurrutiasilva/Prometheus_on_PhotonOS/blob/main/scripts/install_prometheus_exporter.sh), which is part of my repository [Prometheus_on_PhotonOS](https://github.com/rafaelurrutiasilva/Prometheus_on_PhotonOS).
+1. Configure and run it as a [container application](https://github.com/prometheus/node_exporter#docker).
+2. Create your own RPM using the community spec file, [node_exporter.spec](https://github.com/utobi/prometheus-rpm/blob/master/node_exporter/contrib/node_exporter.spec).
+3. Install it locally using my script [install_prometheus_exporter.sh](https://github.com/rafaelurrutiasilva/Prometheus_on_PhotonOS/blob/main/scripts/install_prometheus_exporter.sh), which is part of my repository [Prometheus_on_PhotonOS](https://github.com/rafaelurrutiasilva/Prometheus_on_PhotonOS).
