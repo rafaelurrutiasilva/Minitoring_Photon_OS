@@ -23,8 +23,10 @@ Where **syslog.of.your** is the namn or IP address of your syslog server.
 systemctl restart rsyslog.service
 systemctl enable rsyslog.service 
 ````
+* Sending specific log
+You can configure rsyslog to handle specific files to be sent to the syslog server. This is done in the configuration file: `/etc/rsyslog.d/application.conf`.
 
 ## Monitoring Nagios checks
-
+ 
 https://github.com/rafaelurrutiasilva/nagios-bash-plugins
 
