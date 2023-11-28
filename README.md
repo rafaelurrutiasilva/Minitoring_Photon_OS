@@ -5,7 +5,8 @@ A general introduction on how to handle logging and monitoring on VMware [Photon
 <br>
 ## Introduction
 VMware has an extensive ecosystem of products for maintaining control over their applications. This includes monitoring, logging, and more. However, if you prefer or need alternative methods, you have come to the right page.
-
+<br>
+<br>
 ---
 
 ## Logging
