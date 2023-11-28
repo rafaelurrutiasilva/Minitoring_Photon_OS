@@ -60,3 +60,10 @@ OID                       |      Used for
 1.3.6.1.4.1.2021.9.1.9.1  |      Percentage of space used on disk
 1.3.6.1.2.1.25.4.2.1.2    |      Process list
 
+## Prometheus Node Exporter
+If you already are familiar with Prometheus and Grafana with not to run install and run the [Prometheus Node Exporter](https://github.com/prometheus/node_exporter).<br> 
+You have a few choices: Configure and run as a container applikation, create you own RPM using the community spec-file, [node_exporter.spec](https://github.com/utobi/prometheus-rpm/blob/master/node_exporter/contrib/node_exporter.spec) or you can install locally using my script [install_prometheus_exporter.sh](https://github.com/rafaelurrutiasilva/Prometheus_on_PhotonOS/blob/main/scripts/install_prometheus_exporter.sh), part of my repo [Prometheus_on_PhotonOS](https://github.com/rafaelurrutiasilva/Prometheus_on_PhotonOS)
+
+
+
+
