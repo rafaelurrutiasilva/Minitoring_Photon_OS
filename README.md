@@ -24,9 +24,10 @@ systemctl restart rsyslog.service
 systemctl enable rsyslog.service 
 ````
 * Sending specific log
-You can configure rsyslog to handle specific files to be sent to the syslog server. This is done in the configuration file: `/etc/rsyslog.d/application.conf`.
+You can configure rsyslog to handle specific files to be sent to the syslog server. This is done in the configuration file: `/etc/rsyslog.d/application.conf`.<br>
+See the documentation for more details.
+
+
 
 ## Monitoring Nagios checks
- 
-https://github.com/rafaelurrutiasilva/nagios-bash-plugins
-
+In my repository, [Nagios Bash Plugins](https://github.com/rafaelurrutiasilva/nagios-bash-plugins). I have four small Bash scripts that will likely provide all the help you may need. These scripts check tasks, CPU, memory, or swap using the top command, disk utilization, file age with a few attributes, and, of course, Linux processes
