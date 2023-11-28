@@ -14,7 +14,9 @@ You will need to install a system for log processing. My recommmendation is go f
 ```
 tdnf install rsyslog
 ```
-* The you need to configure the destination syslog server, replace the line: `*.* @@remote-host:514` with `*.* @@syslog.of.your:514`
+* The you need to configure the destination syslog server, replace the line: `*.* @@remote-host:514` with `*.* @@syslog.of.your:514`.
+Where **syslog.of.your** is the namn or IP address of your syslog server.
+
 * restart and enable rsyslog
 ```
 systemctl restart rsyslog.service
