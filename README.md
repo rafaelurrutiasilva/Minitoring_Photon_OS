@@ -30,4 +30,10 @@ See the documentation for more details.
 
 
 ## Monitoring Nagios checks
-In my repository, [Nagios Bash Plugins](https://github.com/rafaelurrutiasilva/nagios-bash-plugins). I have four small Bash scripts that will likely provide all the help you may need. These scripts check tasks, CPU, memory, or swap using the top command. The disk utilization, file age with a few attributes, and, of course, Linux processes
+In my repository, [Nagios Bash Plugins](https://github.com/rafaelurrutiasilva/nagios-bash-plugins). I have four small Bash scripts that will likely provide all the help you may need. These scripts check tasks, CPU, memory, or swap using the top command. The disk utilization, file age with a few attributes, and, of course, Linux processes. <br>
+All the scripts can be installed locally and then executed using SSH from the authorized monitoring server. **Be aware of security**!
+
+## Security in focus
+* Use local account with just enough privileges.
+* Use ssh-kyes
+* Limit login from just needed ip address
